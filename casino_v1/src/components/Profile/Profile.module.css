@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Feature Mono';
+  src: url('../../../public/fonts/featuremono/FeatureMono-Bold.woff2') format('woff2'),
+  url('../../../public/fonts/featuremono/FeatureMono-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.myModal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.myModalContent {
+  font-family: 'Feature Mono', monospace;
+  padding: 20px;
+  background: #2b2d31;
+  border: 2px solid #616161;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #646669;
+  border-radius: 16px;
+  min-width: 250px;
+}
+
+.myModal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

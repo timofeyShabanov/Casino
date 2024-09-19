@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Feature Mono';
+  src: url('../public/fonts/featuremono/FeatureMono-Bold.woff2') format('woff2'),
+       url('../public/fonts/featuremono/FeatureMono-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin-top: 110px;
+  background-color: #323437;
+}
+
+.profile__container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  margin-top: 150px;
+  margin-right: 40px;
+}
+
+.balance__text {
+  font-family: 'Feature Mono', monospace;
+  margin-top: 50px;
+  color: #646669;
+  font-size: 1.1em;
+}
+
+.winning__ribbon__container{
+  width: 90%;
+}
+
+.modal__button{
+  height: 24px;
+  margin-top: 6px;
+  background: #1d1e21;
+  border: 1px solid #616161;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Feature Mono', monospace;
+}

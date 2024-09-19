@@ -1,0 +1,15 @@
+.image-container {
+	width: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+
+.rotating-image {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+}

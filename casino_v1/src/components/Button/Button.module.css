@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Feature Mono';
+	src: url('../../../public/fonts/featuremono/FeatureMono-Bold.woff2') format('woff2'),
+		url('../../../public/fonts/featuremono/FeatureMono-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+.button {
+	font-family: 'Feature Mono', monospace;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 10px;
+	background: #1d1e21;
+	border: 2px solid #616161;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	margin: 20px auto;
+	color: #646669;
+	font-size: 1.1em;
+	width: 25vw;
+	cursor: pointer;
+}
+
+.button:disabled {
+	background: #2e2e2e;
+	color: #a5a5a5;
+	border-color: #7a7a7a;
+	box-shadow: none;
+}

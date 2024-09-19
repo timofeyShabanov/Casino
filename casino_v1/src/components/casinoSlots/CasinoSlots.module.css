@@ -1,0 +1,20 @@
+.slot {
+  margin: 0 10px;
+  background: radial-gradient(circle, #1e1e1e 10%, #1a1a1a 50%, #131313 100%);
+  border: 2px solid #616161;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 420px;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slot__img {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+
