@@ -37,9 +37,12 @@ function App() {
 
   const playingCasino = () => {
     setIfButtonDisabled(true)
-    const spin1return = randomNumber();
-    const spin2return = randomNumber();
-    const spin3return = randomNumber();
+    // const spin1return = randomNumber();
+    // const spin2return = randomNumber();
+    // const spin3return = randomNumber();
+    const spin1return = 7;
+    const spin2return = 7;
+    const spin3return = 7;
     setResultOfSpin('0')
     setResultOfSpin1(0);
     setResultOfSpin2(0);
